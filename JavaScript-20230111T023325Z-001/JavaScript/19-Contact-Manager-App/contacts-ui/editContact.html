@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="../font-awesome/css/all.css" rel="stylesheet">
+    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+    <script async src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <link href="css/styles.css" rel="stylesheet">
+    <title>BS Edit Contact</title>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+    <div class="container">
+        <a class="navbar-brand" href="../index.html">
+            <i class="fa fa-users text-warning"></i>
+            Contact <span class="text-warning">Manager</span></a>
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler"
+                data-bs-target="#contact-mgr" data-bs-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="contact-mgr">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="login.html">
+                        <i class="fa fa-sign-in-alt"></i> Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="register.html">
+                        <i class="fa fa-user-circle"></i> Register</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Intro Section -->
+<section class="p-4">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p class="h3 text-primary">Edit Contact</p>
+                <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur atque
+                    dolorem ea earum est exercitationem ipsum iure magni modi odit optio quasi quos, rerum, sint vero
+                    voluptas. Eum, iure!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 mt-3">
+                <form id="edit-contact-form">
+                    <div class="mb-2">
+                        <input class="form-control" id="name-input" placeholder="Name" required type="text">
+                    </div>
+                    <div class="mb-2">
+                        <input class="form-control" id="image-input" placeholder="Photo Url" required type="text">
+                    </div>
+                    <div class="mb-2">
+                        <input class="form-control" id="mobile-input" placeholder="Mobile" required type="number">
+                    </div>
+                    <div class="mb-2">
+                        <input class="form-control" id="email-input" placeholder="Email" required type="email">
+                    </div>
+                    <div class="mb-2">
+                        <input class="form-control" id="company-input" placeholder="Company" required type="text">
+                    </div>
+                    <div class="mb-2">
+                        <input class="form-control" id="title-input" placeholder="Title" required type="text">
+                    </div>
+                    <div class="mb-2">
+                        <select class="form-control" id="group-input">
+                            <option value="">Select a Group</option>
+                            <option value="">Family</option>
+                            <option value="">Colleague</option>
+                            <option value="">Friend</option>
+                            <option value="">Social</option>
+                            <option value="">Service</option>
+                        </select>
+                    </div>
+                    <div class="mb-2">
+                        <input class="btn btn-primary" type="submit" value="Update">
+                        <a class="btn btn-dark" href="../index.html">Cancel</a>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-3">
+                <img alt="" class="img-fluid rounded-circle"
+                     id="display-image"
+                     src="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- scripts -->
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="js/editContact.js" type="module"></script>
+</body>
+</html>

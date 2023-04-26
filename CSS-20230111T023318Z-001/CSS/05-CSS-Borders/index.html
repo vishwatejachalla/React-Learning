@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Borders</title>
+  <style>
+
+    #circle{
+      width: 200px;
+      height: 200px;
+      border: 20px solid orange;
+      border-radius: 50%;
+      background: white url("../images/breads_2.jpg") no-repeat scroll center;
+    }
+
+    div{
+      width: 300px;
+      height: 200px;
+      border-right: 40px solid teal;
+      border-left: 40px solid teal;
+      border-top: 20px solid #1d6a70;
+      border-bottom: 20px solid #1d6a70;
+    }
+    div img{
+      width: 100%;
+    }
+
+    h2{
+      text-align: center;
+      box-shadow: 0 0 2px black;
+      width: 400px;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background-color: lightgrey;
+    }
+    #border-left{
+      border-left: 15px solid teal;
+    }
+    #border-right{
+      border-right: 15px solid teal;
+    }
+
+    #border-all{
+      border: 15px solid teal;
+    }
+    #border-rounded{
+      border: 15px solid teal;
+      border-radius: 30px;
+    }
+
+    #border-two{
+      border: 15px solid teal;
+      border-radius: 0 30px 0 30px;
+    }
+  </style>
+</head>
+<body>
+
+      <div>
+        <img src="../images/breads_1.jpg" alt="">
+      </div>
+
+      <div id="circle"></div>
+
+      <h2 id="border-left">Border Left</h2>
+
+      <h2 id="border-right">Border Right</h2>
+
+      <h2 id="border-all">Border All</h2>
+
+      <h2 id="border-rounded">Border Rounded</h2>
+
+      <h2 id="border-two">Border Rounded</h2>
+</body>
+</html>

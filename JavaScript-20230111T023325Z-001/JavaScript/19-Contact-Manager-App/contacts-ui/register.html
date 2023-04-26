@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="../font-awesome/css/all.css" rel="stylesheet">
+    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+    <script async src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <link href="css/styles.css" rel="stylesheet">
+    <title>BS Register</title>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+    <div class="container">
+        <a class="navbar-brand" href="../index.html">
+            <i class="fa fa-users text-warning"></i>
+            Contact <span class="text-warning">Manager</span></a>
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler"
+                data-bs-target="#contact-mgr" data-bs-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="contact-mgr">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="login.html">
+                        <i class="fa fa-sign-in-alt"></i> Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="register.html">
+                        <i class="fa fa-user-circle"></i> Register</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Intro Section -->
+<section class="p-4">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p class="h3 text-warning">Register Here</p>
+                <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur atque
+                    dolorem ea earum est exercitationem ipsum iure magni modi odit optio quasi quos, rerum, sint vero
+                    voluptas. Eum, iure!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 mt-3">
+                <form>
+                    <div class="mb-2">
+                        <input class="form-control" placeholder="Username" type="text">
+                    </div>
+                    <div class="mb-2">
+                        <input class="form-control" placeholder="Email" type="email">
+                    </div>
+                    <div class="mb-2">
+                        <input class="form-control" placeholder="Password" type="password">
+                    </div>
+                    <div class="mb-2">
+                        <input class="btn btn-warning" type="submit" value="Register">
+                        <a class="btn btn-dark" href="../index.html">Cancel</a>
+                    </div>
+                </form>
+                <small>Already have an account? <a class="text-warning text-decoration-none fw-bold" href="login.html">Login</a></small>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

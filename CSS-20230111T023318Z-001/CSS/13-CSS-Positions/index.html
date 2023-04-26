@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Positions</title>
+  <style>
+    body{
+      height: 5000px;
+    }
+    .box{
+      width: 100px;
+      height: 100px;
+      border: 5px solid whitesmoke;
+      box-shadow: 0 0 2px grey;
+    }
+    .box1{
+      background-color: lightseagreen;
+      position: relative;
+      left: 300px;
+      top: 200px;
+    }
+    .container{
+      width: 400px;
+      height: 400px;
+      background-color: rgba(0,0,0,0.5);
+      position: relative;
+      left: 450px;
+      top: 100px;
+    }
+    .box2{
+      background-color: orange;
+      position: absolute;
+      left : 50px;
+      top : 60px;
+      z-index: 3;
+      transform: rotate3d(2,1,1,-0.2turn);
+    }
+    .box3{
+      background-color: blueviolet;
+      position: absolute;
+      left: 60px;
+      top: 40px;
+      z-index: 4;
+      transform: rotate3d(2,1,1,-0.2turn);
+    }
+    .box4{
+      background-color: pink;
+      position: fixed;
+      top:30%;
+      right : 30%;
+    }
+    .box5{
+      background-color: yellow;
+      position: sticky;
+      top: 0;
+    }
+    .box6{
+      background-color: red;
+      position: static;
+    }
+
+
+  </style>
+</head>
+<body>
+
+    <div class="box box1"></div>
+    <div class="container">
+      <div class="box box2"></div>
+      <div class="box box3"></div>
+    </div>
+    <div class="box box4"></div>
+    <div class="box box5"></div>
+    <div class="box box6"></div>
+</body>
+</html>

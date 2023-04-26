@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Media Queries</title>
+    <style>
+      body{
+        font-family: Calibri, sans-serif;
+      }
+      div h2{
+        text-align: center;
+        display: none;
+      }
+      img{
+        width: 100%;
+      }
+
+      /* Mobile screen */
+      @media (max-width: 576px) {
+        body{
+          background-color: #1d6a70;
+        }
+        div h2:nth-child(1){
+          display: block;
+        }
+      }
+
+      /* Tablet screen */
+      @media (min-width: 577px) and (max-width: 768px) {
+        body{
+          background-color: lightcyan;
+        }
+        div h2:nth-child(2){
+          display: block;
+        }
+      }
+
+      /* Laptop screen */
+      @media (min-width: 769px) and (max-width: 992px) {
+        body{
+          background-color: coral;
+        }
+        div h2:nth-child(3){
+          display: block;
+        }
+      }
+
+      /* wide screen */
+      @media (min-width: 993px) {
+        body{
+          background-color: lightpink;
+        }
+        div h2:nth-child(4){
+          display: block;
+        }
+      }
+    </style>
+</head>
+<body>
+
+   <h2>Screen Size : <span id="screen"></span></h2>
+
+    <div>
+      <h2>Mobile Screen</h2>
+      <h2>Tablet Screen</h2>
+      <h2>Laptop Screen</h2>
+      <h2>Wide Screen</h2>
+    </div>
+
+   <img src="../images/burger4.jpg" alt="">
+
+
+
+
+<script>
+  window.addEventListener('resize', () => {
+    let screenSize = window.innerWidth;
+    document.querySelector('#screen').textContent = `${screenSize}px`;
+  })
+</script>
+</body>
+</html>

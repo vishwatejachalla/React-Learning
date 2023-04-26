@@ -1,0 +1,88 @@
+Node , Express, MongoDB
+-----------------------
+-> Node JS -> packages
+-> Express JS -> 
+
+CSS -> Bootstrap
+Node -> Express
+
+-> Create a server -> url mappings ->  
+-> React JS -> npx create-react-app first-app 
+
+Server Creation using Express JS 
+--------------------------------
+-> create a package.json 
+    -> npm init --yes
+-> create tsconfig.json 
+    -> tsc --init 
+-> install few packages/modules
+	-> npm install @types/node express @types/express nodemon dotenv @types/dotenv
+-> create server.ts 
+    -> ...	
+	
+	npm start 
+	
+Test backend application 
+-------------------------
+1. postman
+2. insomnia	
+
+nodemon -> npm install nodemon 
+
+Express JS Routing
+------------------
+app.get('/'); -> http://127.0.0.1:9000/ -> 
+userRouter.get('/'); -> http://127.0.0.1:9000/users/
+todosRouter.get('/'); -> http://127.0.0.1:9000/todos/
+
+
+/users -> userRouter
+/todos -> todosRouter
+
+mongo db
+---------
+Java -> java objects -> ORM -> Oracle -> tables, colums
+Node JS -> JS object -> JSON -> MongoDB
+
+Oracle    MongoDB
+------------------
+database - database -> collections of arrays
+tables   - collections -> array of objects
+rows	- objects -> object
+Colums	- fields -> object's property
+
+cloud setup
+-----------
+-> login to .mongodb.com with google cred
+-> Create a Porject
+-> Create a Database
+-> configure the network access
+
+mongoDB compass (GUI)
+---------------------
+-> install from mongoDB.com
+     -> products -> tools -> compass -> download now
+
+mongodb+srv://thenaveensaggam:thenaveensaggam@react.vugobjo.mongodb.net/test
+
+node js -> mongodb driver (module) -> mongoDB
+
+css -> Bootstrap
+node  -> express
+mongodb -> mongoose
+
+connect to MongoDB from Node JS application
+--------------------------------------------
+-> install the package -> "mongoose"
+
+-> npm install @types/node express @types/express nodemon mongoose @types/mongoose dotenv @types/dotenv
+
+Express Server side form validation
+-----------------------------------
+-> install the package -> express-validator
+
+-> npm install @types/node express @types/express nodemon dotenv @types/dotenv express-validator @types/express-validator
+
+Password Encryption
+--------------------
+-> install bcryptjs

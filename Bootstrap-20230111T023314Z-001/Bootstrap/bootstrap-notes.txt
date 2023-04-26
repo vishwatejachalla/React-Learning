@@ -1,0 +1,170 @@
+Bootstrap
+---------
+-> CSS library
+-> Mark otto -> components -> open source -> Bootstrap 
+-> download the bootstrap offline / CDN / npm
+    -> css -> bootstrap.css 
+	-> js -> bootstrap.bundle.js 
+
+-> colors
+---------
+info -> light blue
+primary -> blue
+secondary -> grey
+success -> green
+warning -> orange
+danger -> red
+light -> light grey
+white -> white
+dark -> black
+
+
+text-color 
+----------
+text-info -> light blue
+text-primary -> blue
+text-secondary -> grey
+text-success -> green
+text-warning -> orange
+text-danger -> red
+text-light -> light grey
+text-white -> white
+text-dark -> black
+
+background color 
+---------------
+bg-info -> light blue
+bg-primary -> blue
+bg-secondary -> grey
+bg-success -> green
+bg-warning -> orange
+bg-danger -> red
+bg-light -> light grey
+bg-white -> white
+bg-dark -> black
+
+Buttons
+--------
+btn-info -> light blue
+btn-primary -> blue
+btn-secondary -> grey
+btn-success -> green
+btn-warning -> orange
+btn-danger -> red
+btn-light -> light grey
+btn-white -> white
+btn-dark -> black
+
+list-group-item
+-----------
+list-group-item-info -> light blue
+list-group-item-primary -> blue
+list-group-item-secondary -> grey
+list-group-item-success -> green
+list-group-item-warning -> orange
+list-group-item-danger -> red
+list-group-item-light -> light grey
+list-group-item-white -> white
+list-group-item-dark -> black
+
+Alerts
+------
+alert alert-info -> light blue
+alert alert-primary -> blue
+alert alert-secondary -> grey
+alert alert-success -> green
+alert alert-warning -> orange
+alert alert-danger -> red
+alert alert-light -> light grey
+alert alert-white -> white
+alert alert-dark -> black
+
+grids
+-----
+container /.container-fluid
+
+	-> .row
+		-> .col-4
+		
+		-> sm , md , lg , xl , xxl
+		
+		-> col-sm-4, col-md-6 , col-lg-3
+	
+margins & paddings
+------------------
+m , 0,1,2,3,4,5,auto
+
+ms-2
+me-2
+mt
+mb
+mx = ms + me
+my = mt + mb 
+
+p , 0,1,2,3,4,5
+
+ps
+pe
+pt
+pb
+px
+py
+	
+list-groups
+-----------
+list-group 
+list-group-item 	
+
+
+Cards
+-----
+.card
+.card-header
+.card-body
+.card-footer
+.card-img
+.card-title
+.card-text
+
+forms
+-----
+.form-control 
+.form-input-label
+.form-inline
+.form-check-input 
+.form-check-label 
+
+modals
+-------
+.modal 
+.modal.dialog 
+.modal-content
+.modal-header
+.modal-body
+.modal-footer
+
+
+Website
+-------
+Contact Manger App - Bootstrap 
+
+font awesome icons
+
+udachanr@gmail.com
+ym.sumalatha@gmail.com
+krishnakittu@gmail.com
+ershad.mdsk@gmail.com
+
+
+
+<MainNavbar pageName="Login">
+
+<Gallery numberOfImages="10">
+
+node -> unistall
+temp -> clear 
+c: 
+
+node -> 
+
+node_modules -> npm install 

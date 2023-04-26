@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Backgrounds</title>
+  <style>
+    body{
+      font-family: Calibri, sans-serif;
+    }
+    .bg-color{
+      background-color: teal;
+    }
+    .bg-image{
+      width: 500px;
+      background-image: url("../images/image_2.jpg");
+      background-position: bottom left;
+    }
+
+    .bg-attach{
+      height: 200px;
+      box-shadow: 0 0 10px black;
+      background-image: url("../images/image_2.jpg");
+      background-attachment: fixed;
+    }
+
+    .bg-position{
+      height: 300px;
+      background: #7cbf8c url("../images/Capture.PNG") no-repeat scroll bottom left;
+   }
+
+    .bg-size{
+      height: 300px;
+      width: 500px;
+      box-shadow: 0 0 10px black;
+      background: #7cbf8c url("../images/image_2.jpg") no-repeat scroll center;
+      background-size: cover;
+    }
+
+    .bg-mix{
+      height: 300px;
+      width: 500px;
+      box-shadow: 0 0 10px black;
+      background: linear-gradient(90deg,black,white,black);
+    }
+  </style>
+</head>
+<body>
+
+  <div>
+    <h2>BG Color</h2>
+    <p class="bg-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae doloremque eligendi, eveniet excepturi fuga fugiat hic mollitia qui quo veritatis.</p>
+  </div>
+
+  <h2>BG Image</h2>
+  <div class="bg-image">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium autem delectus dolorum ea iusto, natus necessitatibus nobis numquam officia praesentium provident quidem repellat reprehenderit sint vel? Eveniet iste modi nisi quibusdam quod totam veritatis voluptates. Corporis, optio vitae! Aut eligendi explicabo fugiat, labore maxime molestias nobis quas suscipit tempore unde.</p>
+  </div>
+
+  <h2>BG Attach</h2>
+  <div class="bg-attach"></div>
+
+  <h2>BG Position</h2>
+  <div class="bg-position"></div>
+
+  <h2>BG Size</h2>
+  <div class="bg-size"></div>
+
+  <h2>BG color</h2>
+  <div class="bg-mix"></div>
+
+  <div style="margin-bottom: 700px"></div>
+
+</body>
+</html>
